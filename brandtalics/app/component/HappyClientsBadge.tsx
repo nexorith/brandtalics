@@ -19,7 +19,7 @@ export const HappyClientsBadge = () => {
       </div>
 
       {/* Happy Clients Text */}
-      <p className="text-sm font-bold text-secondary">75+ happy clients</p>
+      <p className="text-sm font-bold text-secondary ">75+ happy clients</p>
     </div>
   );
 };
