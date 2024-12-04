@@ -13,21 +13,23 @@ const OurFocus = () => {
       <div className=" text-center mb-8">
         <h2 className="mb-5">Our Focus</h2>
         <p className=" items-center justify-center">
-          We Focus on Building website that help you achive your goal.
+          We Focus on Building Online business that totaly boom in the market
+          that help you achive your goal.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 in;l">
         {features.map((features, index) => (
           <div
             key={features.description}
-            className="bg-[#f0fff4] p-4 rounded-lg shadow-sm transition-transform transform hover:scale-105"
+            className="bg-white p-4 rounded-lg shadow-sm transition-transform transform hover:scale-95 place-self-center"
           >
-            <div className="inline-block p-4 bg-secondary rounded-lg">
+            <div className="inline-block p-4 bg-black rounded-lg">
               <Image
                 src={features.image}
                 alt="features"
                 width={30}
                 height={30}
+                className="stroke-secondary"
               />
             </div>
             <h3 className="my-4">{features.title}</h3>
@@ -58,12 +60,6 @@ const features = [
     title: "Graphics Design",
     description:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.<br/> Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
-  },
-  {
-    image: webdev,
-    title: "Website Design and Development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetuer adfyhtyuhtipiscing elit. Aenean commodo ligula eget dolor.<br/> Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
   },
   {
     image: digitalmarketing,

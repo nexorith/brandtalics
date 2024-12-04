@@ -12,8 +12,12 @@ export default {
        dark: "#14171a",
        primary: "#0aef10",
        secondary: "#00352f",
+       seclight: "#85e6db",
        lightbg: "#808080",
-      },
+       
+      
+      
+      }
     },
   },
   plugins: [],

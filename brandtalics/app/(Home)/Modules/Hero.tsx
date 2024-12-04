@@ -6,20 +6,20 @@ import { HappyClientsBadge } from "@/app/component/HappyClientsBadge";
 
 const Hero = () => {
   return (
-    <div className="bg-white py-12  text-secondary ">
+    <div className="bg-white py-12  text-secondary mt-10 ">
       <div className="container  mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
+          <div className="self-center">
             <HappyClientsBadge />
 
             <h1 className="mb-2">
               We should build <span className="text-primary">Professional</span>{" "}
               websites
             </h1>
-            <p className="text-xl mb-4">
-              <strong> Goal oriented websites.</strong> Sell more, get more
-              leads, or present yourself to the whole world as you only imagined
-              until now. We love when clients succeed.
+            <p className="text-xl mt-5 mb-4">
+              At Brandtalics, we transform your ideas into stunning visuals.
+              From logos to social media graphics, we craft designs that
+              captivate and communicate your brand's unique identity.
             </p>
             <Button />
           </div>

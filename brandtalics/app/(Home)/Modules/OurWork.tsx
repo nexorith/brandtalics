@@ -14,9 +14,9 @@ const OurWork = () => {
     <section className="bg-white text-secondary py-8 md:py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-center mb-8">Our Work</h2>
-        <div className=" grid grid-cols-1 md:grid-cols-3 mb-4 gap-10">
+        <div className=" grid grid-cols-1 md:grid-cols-3 mb-4 gap-10 ">
           {project.map((p, i) => (
-            <div key={p.title}>
+            <div className="hover:scale-95 cursor-pointer" key={p.title}>
               <h4 className="mb-2 font-bold mt-5 ">{p.title}</h4>
               <div className="rounded overflow-hidden border-8 mt-3">
                 <ImageIsolated src={p.image} alt={`project${i}`} />
